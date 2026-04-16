@@ -1,0 +1,64 @@
+{
+  "supervisors": [
+    {
+      "name": "Проф. Азатбекұлы Нұртуган",
+      "research_areas": ["машинное обучение", "компьютерное зрение", "глубокое обучение", "нейронные сети"],
+      "keywords": ["CNN", "трансферное обучение", "медицинская диагностика", "обработка изображений"],
+      "publications": [
+        {"title": "Deep Learning for Medical Image Segmentation", "year": 2023},
+        {"title": "Transfer Learning in Computer Vision Tasks", "year": 2022}
+      ],
+      "max_students": 3,
+      "current_load": 2,
+      "h_index": 12
+    },
+    {
+      "name": "Доц. Бектемесов Аманжол",
+      "research_areas": ["кибербезопасность", "криптография", "сетевая безопасность"],
+      "keywords": ["блокчейн", "шифрование", "защита данных", "IoT", "PKI"],
+      "publications": [
+        {"title": "Blockchain-based Security Protocols for IoT", "year": 2023},
+        {"title": "Lightweight Cryptography for Edge Devices", "year": 2021}
+      ],
+      "max_students": 2,
+      "current_load": 2,
+      "h_index": 8
+    },
+    {
+      "name": "Проф. Бурибаев Бахыт",
+      "research_areas": ["биоинформатика", "геномика", "анализ данных", "машинное обучение"],
+      "keywords": ["геномный анализ", "статистика", "секвенирование ДНК", "предсказательные модели"],
+      "publications": [
+        {"title": "Genomic Data Analysis Using ML Pipelines", "year": 2024},
+        {"title": "Statistical Methods in Bioinformatics", "year": 2022}
+      ],
+      "max_students": 3,
+      "current_load": 1,
+      "h_index": 15
+    },
+    {
+      "name": "Доц. Макашев Ерлан",
+      "research_areas": ["робототехника", "встраиваемые системы", "управляющие системы"],
+      "keywords": ["ROS", "Arduino", "автономные системы", "беспилотники", "сенсоры"],
+      "publications": [
+        {"title": "ROS-based Autonomous Navigation System", "year": 2023},
+        {"title": "Embedded Control for UAV Systems", "year": 2022}
+      ],
+      "max_students": 2,
+      "current_load": 0,
+      "h_index": 7
+    },
+    {
+      "name": "Доц. Джамбаева Бакытгуль",
+      "research_areas": ["NLP", "обработка естественного языка", "лингвистика"],
+      "keywords": ["трансформеры", "BERT", "генерация текста", "казахский язык", "многоязычность"],
+      "publications": [
+        {"title": "Multilingual NLP for Low-Resource Languages", "year": 2024},
+        {"title": "Kazakh Language Model Development", "year": 2023}
+      ],
+      "max_students": 3,
+      "current_load": 1,
+      "h_index": 9
+    }
+  ]
+}

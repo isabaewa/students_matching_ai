@@ -169,6 +169,8 @@ def run_matching_crew(student_text, supervisor_data, knowledge_text, config, thr
     """Запускает CrewAI Crew и возвращает результат."""
     from crewai import Agent, Task, Crew, Process
     from crewai.memory import LongTermMemory
+    from crewai.memory.long_term.long_term_memory import LongTermMemory
+    from crewai.memory.short_term.short_term_memory import ShortTermMemory  
     from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
     from crewai import LLM
     import crewai

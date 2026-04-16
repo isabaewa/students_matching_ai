@@ -168,7 +168,7 @@ with info_col:
 def run_matching_crew(student_text, supervisor_data, knowledge_text, config, threshold):
     """Запускает CrewAI Crew и возвращает результат."""
     from crewai import Agent, Task, Crew, Process
-    from crewai.memory import LongTermMemory, ShortTermMemory
+    from crewai.memory import LongTermMemory
     from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
     from crewai import LLM
     import crewai
